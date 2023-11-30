@@ -1,0 +1,19 @@
+name: lint
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-todoapp-handbook-${{ hashFiles('package-lock.json') }}
+          restore-keys: ${{ runner.os }}-todoapp-handbook
+      - name: Install node_modules
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+      - name: lint
+        run: npm run textlint

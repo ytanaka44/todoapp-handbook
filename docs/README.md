@@ -1,3 +1,3 @@
 # ToDo App Handbook
 
-todo app の実装の仕様をまとめる
+todo appの実装の仕様をまとめる。

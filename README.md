@@ -1,4 +1,8 @@
-# 実行ログ
+# TodoApp Handbook
+このhandbookはdocsifyを使用して開発ドキュメントを作成するための練習。
+
+
+https://github.com/wheatandcat/memoir-handbook を参考にさせていただいた。
 
 ## docsifyのインストール＆実行
 ```

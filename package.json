@@ -1,0 +1,21 @@
+{
+  "name": "todoapp-handbook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "textlint": "^13.4.1"
+  },
+  "dependencies": {
+    "textlint-rule-preset-smarthr": "^1.28.0"
+  },
+  "scripts": {
+    "textlint": "textlint ./docs/**",
+    "changeLog": "zx ./changeLog.mjs"
+  }
+}

@@ -1,7 +1,7 @@
 # 開発手順
 
 ## 1. todoapp-handbookにissueを作成する
-Githubのissueタブから**New Issue**をクリックしてissueを作成する
+Githubのissueタブから**New Issue**をクリックしてissueを作成する。
 
 ## 2. 作成したissueのIDを元にブランチを作成する
 
@@ -15,10 +15,10 @@ Githubのissueタブから**New Issue**をクリックしてissueを作成する
 ドキュメントを更新完了してから、5.〜8.までの工程は並列で進めていく。
 
 ## 5. 開発側のリポジトリにissueを作成する
-handbookで作成したドキュメント & issueの情報を元に開発の設計を行う
+handbookで作成したドキュメント & issueの情報を元に開発の設計する。
 
 ## 6. 4の修正をtodoapp-handbookにPull Requestを作成＆マージ
-作成したブランチの修正のPull Requestを作成してmasterブランチにマージする
+作成したブランチの修正のPull Requestを作成してmasterブランチにマージする。
 
 ## 7. Todo Appの開発を開始する
-開発を開始する
+開発を開始する。

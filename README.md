@@ -1,13 +1,5 @@
 # 実行ログ
 
-## version
-- ```node -v```: v18.16.0
-- ```npm -v```: 9.5.1
-
-
-
-
-
 ## docsifyのインストール＆実行
 ```
 npm i docsify-cli -g
